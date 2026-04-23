@@ -1,0 +1,28 @@
+# core api framework
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+
+#anthropic sdk 
+anthropic>=0.36.0
+
+# pdf parsing 
+PyMuPDF==1.24.10
+
+# ocr fallback
+pytesseract==0.3.13
+Pillow==10.4.0
+
+# audio transcription
+#turned it to a comment because i was having some version issue while setting up the req file installation 
+#openai-whisper==20231117
+#instead i used this latest whisper version from github which i directly ran in my terminal to install 
+#ran this in my terminal to install whisper - pip install -U openai-whisper setuptools
+openai-whisper>=20231117
+# youtube transcript
+youtube-transcript-api==0.6.2
+
+#for testing 
+pytest==8.3.2
+pytest-asyncio==0.23.8
+httpx==0.27.2
